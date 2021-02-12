@@ -1,0 +1,125 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #D67D7D;
+}
+
+p {
+    font-size: 22px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.nav-item {
+    color: black;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+
+a:hover {
+    color: white;
+}
+
+#container {
+    display: flex;
+    height: 30vh;
+    background-color: #D67D7D;
+}
+
+#section {
+    display: flex;
+    height: 40vh;
+    background-color: #D67D7D;
+}
+
+h1 {
+    font-size: 70px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#imagination {
+    display: flex;
+    padding-left: 150px;
+    padding-top: 100px;
+    color: #D67D7D;
+    text-shadow: 2px 2px 20px black;
+}
+
+#turns {
+    display: flex;
+    padding-left: 50px;
+    padding-top: 125px;
+}
+
+#to {
+    display: flex;
+    padding-left: 150px;
+    padding-top: 25px;
+}
+
+#innovation{
+    display: flex;
+    padding-left: 20px;
+    color: #D67D7D;
+    text-shadow: 2px 2px 30px black;
+}
+
+#myname {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 200px;
+}
+
+#web-developer {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 200px;
+}
+
+#profile-picture {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px;
+    background: linear-gradient(to bottom, white,white, #D67D7D);
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    color: #ABABAB;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    padding-left: 660px;
+}
+
+a {
+    color: #ABABAB;
+    text-decoration: none;
+}
+
+#linkedin:hover {
+    color: #D67D7D;
+}
