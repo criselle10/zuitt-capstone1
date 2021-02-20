@@ -6,113 +6,118 @@
 
 .navbar {
     background-color: #D67D7D;
+    color:black;
 }
 
-p {
-    font-size: 22px;
-    margin-left: 10px;
+#icon {
+    font-size: 25px;
+    padding-left: 10px;
     font-weight: bold;
 }
 
+
 .nav-item {
     color: black;
-    margin-right: 10px;
     font-weight: bold;
     font-size: 18px;
 }
 
-
+hr {
+    padding: 0px;
+    margin: 0px;
+    color: black;
+}
 
 a:hover {
     color: white;
 }
 
 #container {
-    display: flex;
-    height: 30vh;
+    display: auto;
+    height: 50vh;
     background-color: #D67D7D;
 }
 
-#section {
-    display: flex;
-    height: 40vh;
-    background-color: #D67D7D;
-}
 
-h1 {
-    font-size: 70px;
+h1,
+h3 {
+    font-size:70px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
 }
 
 h3 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: bold;
-    font-size: 40px;
+    font-size: 30px;
 }
 
-#imagination {
-    display: flex;
-    padding-left: 150px;
-    padding-top: 100px;
+.motivationalquote {
+    text-align: justify;
+    margin: 30px;
+    line-height: 18px;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1.2px;
+}
+
+.slogan-big{
     color: #D67D7D;
     text-shadow: 2px 2px 20px black;
 }
 
-#turns {
-    display: flex;
-    padding-left: 50px;
-    padding-top: 125px;
+.slogan-left {
+    text-align: right;
 }
 
-#to {
-    display: flex;
-    padding-left: 150px;
-    padding-top: 25px;
+.slogan-small {
+    vertical-align: middle;
 }
 
-#innovation{
-    display: flex;
-    padding-left: 20px;
-    color: #D67D7D;
-    text-shadow: 2px 2px 30px black;
+input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #D67D7D;
+    color: white;
+    font-weight: bold;
 }
 
 #myname {
+    font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
-    font-weight: bold;
-    padding-left: 200px;
+    font-weight: bolder;
+    margin-top: 50px;
 }
 
 #web-developer {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 15px;
-    font-weight: bold;
-    padding-left: 200px;
+    font-size: 20px;
 }
 
 #profile-picture {
     height: 300px;
     width: 300px;
-    display: flex;
-    flex-direction: column;
-    margin-left: 300px;
     border: 1px solid black;
     border-radius: 4px;
     padding: 10px;
     background: linear-gradient(to bottom, white,white, #D67D7D);
 }
 
-.footer {
-    position: fixed;
-    bottom: 0;
-    text-align: center;
+footer {
+    display: block;
+    margin-bottom: 0px;
+    justify-content: center;
     color: #ABABAB;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 14px;
-    padding-left: 660px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px; /* Vertically center the text there */
 }
 
 a {
@@ -123,3 +128,154 @@ a {
 #linkedin:hover {
     color: #D67D7D;
 }
+
+/*Portfolio*/
+
+.activity {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 250px;
+    height: 250px;
+  }
+
+  .card {
+    margin: 0 auto;
+  }
+
+  .card1 {
+      margin-top: 80px;
+  }
+
+  .card2 {
+      margin-top: 30px;
+  }
+
+  .first-row {
+      margin-bottom: 40px;
+  }
+
+  #secondPage {
+      margin-top: 30px;
+  }
+
+  #firstProject,
+  #secondProject,
+  #thirdProject,
+  #fourthProject,
+  #fifthProject {
+      margin-bottom: 10px;
+  }
+
+#gitlab {
+    background-image: url("../images/gitlab.png");
+ }
+
+#html {
+    background-image: url("../images/html.png");
+}
+
+#css {
+   background-image: url("../images/css.png");
+}
+
+#js {
+   background-image: url("../images/js.png");
+}
+
+#google {
+   background-image: url("../images/google.png");
+}
+.techStack {
+	height: 70px;
+	margin-top:15px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+    margin-bottom: 50px;
+}
+
+article {
+    margin: 30px;
+    font-size: 40px;
+    letter-spacing: 10px;
+    background-color: black;
+    color: #D67D7D;
+    border-radius: 50px;
+    font-weight: bold;
+    font-family: serif;
+}
+
+.skills {
+    background-color: #D67D7D;
+    border-radius: 50px;
+}
+
+
+  /*Contact*/
+#contactHeader {
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+}
+
+#contactForm {
+    border: 5px black;
+}
+
+h2 {
+    margin: 30px;
+}
+
+#messFieldset {
+    padding-top: 70px;
+    font-weight: bold;
+}
+
+#messSent,
+#notif {
+    flex-wrap: wrap;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#okay {
+    font-size: 20px;
+    border: 2px solid;
+    width: 40%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#submit {
+    color: black;
+    border: 2px solid #D67D7D;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: #D67D7D;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+#facebook {
+    background-image: url(../images/facebook.png);
+}
+
+#linkedIn {
+    background-image: url(../images/linkedin.png);
+}
+
+.socialMedia {
+    height: 50px;
+    margin-top:15px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 50px;
+}
+
+#sectionHead {
+    font-size: 25px;
+}
+

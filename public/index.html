@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" 
-          rel="stylesheet" 
-          integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
           crossorigin="anonymous">
 
     <title>Capstone 1</title>
@@ -16,93 +16,105 @@
 
 </head>
 <body>
-    <nav class="navbar navbar-expand-md">
-        <p>{...}</p>
+    <nav class="navbar navbar-expand-md navbar-light">
+        <p id="icon">&lt;/&gt;</p>
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto">
-                <a href="index.html" class="nav-item nav-link active ">Home</a>
+                <a href="index.html" class="nav-item nav-link">Home</a>
                 <a href="portfolio.html" class="nav-item nav-link">Portfolio</a>
                 <a href="contact.html" class="nav-item nav-link">Contact</a>
             </div>
         </div>
     </nav>
     <!--end nav-->
+    <hr>
 
-    <div id="container" class="container-fluid ">
+    <div id="container" class="container-fluid">
         <div class="row">
-            <div class="col-6">
-                <div class="row">
-                    <div id="imagination" class="col-12">
+            <!--slogan section -->
+            <div class="col-md-6 col-sm-12 col-lg-6">
+                <div class="row align-items-center">
+                    <div class="col-9 slogan-big slogan-left">
                         <h1>IMAGINATION</h1>
                     </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-2">
-                <div class="row">
-                    <div id="turns" class="col-12">
+                    <div class="col-3 slogan-small text-left mt-30px ">
                         <h3>turns</h3>
                     </div>
                 </div>
+                <div class="row align-items-center">
+                    <div class="col-3 slogan-small slogan-left font-weight-light">
+                        <h3>to</h3>
+                    </div>
+                    <div class="col-9 slogan-big">
+                        <h1>INNOVATION</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <p class="motivationalquote">
+                            When you think of your BIG goal, sometimes you start feeling overwhelmed. 
+                            Why? Because big goals don’t get achieved right away. 
+                            Instead, you need to create mini goals to help excite you along the way. 
+                            This way you can be more goal-orientated and build a habit of being more effective. 
+                            Celebrating your small wins will help you stay motivated through your journey. 
+                            Plus, celebrating is always super fun. Maybe you break your goal down to 10 small-sized goals
+                            with tasks that get you on track to achieve them. 
+                            For each of the 10 goals you can add a small celebration. 
+                            Maybe a glass of champagne for one or a dessert with a sparkler on top for another. 
+                            Don’t forget to check out some of our motivational quotes about success in a later section. 
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <input type="submit" name="learmore" value="Learn More...">
+                    </div>
+                </div>
+            </div>
+            <!-- end slogan -->
+            <div class="col-md-6 col-12 col-lg-6">
+                <div class="row">
+                    <!-- My name -->
+                    <div class="col-12 text-center align-middle">
+                        <h4 id="myname">Criselle Albor</h4>
+                    </div>
+
+                    <!-- My Position -->
+                    <div class="col-12 text-center align-middle">
+                        <h4 id="web-developer">Web Developer</h4>
+                    </div>
+
+                    <!-- My Picture -->
+                    <div class="col-12 text-center">
+                        <img id="profile-picture" src="./assets/images/caa.jpg" alt="profile-picture">
+                    </div>
+                </div>
             </div>
         </div>
+        <!-- end first row -->
     </div>
     <!--end container-->
 
-    <div id="section" class="container-fluid">
-        <div class="row">
-            <div class="col-2">
-                <div class="row">
-                    <div id="to" class="col-12">
-                        <h3>to</h3>
-                    </div>
-                </div>
-            </div>
- 
-            <div class="col-6">
-                <div class="row">
-                    <div id="innovation" class="col-12">
-                        <h1>INNOVATION.</h1>
-                    </div>
-                </div>
-            </div>
-            <div class="col-4">
-                    <div class="row">
-                        <div class="col-12">
-                            <h4 id="myname">Criselle Albor</h4>
-                            <h4 id="web-developer">-Web Developer</h4>
-                        </div>
-                    </div>
-                <img id="profile-picture" src="./assets/images/caa.jpg" alt="profile-picture">
-            </div>
-        </div>
-    </div>
-    <!--end section-->
 
-    <div class="footer">
-        <a id="linkedin" href="https://www.linkedin.com/in/criselle-albor-96779416b/">Criselle Albor | Web Developer |</a> 
+    <footer class="fixed-bottom">
+        <a id="linkedin" href="https://www.linkedin.com/in/criselle-albor-96779416b/" target="_blank">Criselle Albor | Web Developer |</a>
         &#169; Copyright 2021
-    </div>
-
-
-
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" 
-            integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" 
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"
+            integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi"
             crossorigin="anonymous">
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" 
-            integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
+            integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG"
             crossorigin="anonymous">
     </script>
-    
+
 </body>
 </html>
