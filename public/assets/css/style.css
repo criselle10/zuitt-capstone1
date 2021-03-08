@@ -34,7 +34,7 @@ a:hover {
 
 #container {
     display: auto;
-    height: 50vh;
+    height: 55vh;
     background-color: #D67D7D;
 }
 
@@ -90,12 +90,25 @@ h3 {
     text-decoration: black;
 }
 
-#learnMoreLink {
+#learnMoreLink,
+#okayLink {
     color: black;
     text-decoration: none;
 }
 
 #learnMoreLink:hover {
+    color: white;
+}
+
+#okay {
+    border-radius: 10px;
+    border: 1px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #D67D7D;
+    font-weight: bold;
+}
+
+#okayLink:hover {
     color: white;
 }
 
@@ -131,9 +144,10 @@ footer {
     bottom: 0; */
     width: 100%;
     /* Set the fixed height of the footer here */
-    height: 60px;
+    height: 40px;
     line-height: 60px; /* Vertically center the text there */
     background-color: #fff;
+    margin-top: 65px;
 }
 
 a {
@@ -144,6 +158,7 @@ a {
 #linkedin:hover {
     color: #D67D7D;
 }
+
 
 /*Portfolio*/
 
@@ -233,15 +248,22 @@ article {
 
 
   /*Contact*/
-#contactHeader {
+#contact-header {
     font-size: 35px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     letter-spacing: 2px;
-    margin: 30px;
+    margin-top: 20px;
 }
 
 #contactForm {
     border: 5px black;
+    margin-top: 15px;
+}
+
+#submitInquiry {
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
 }
 
 h2 {
@@ -250,6 +272,7 @@ h2 {
 
 #messFieldset {
     padding-top: 70px;
+    margin-bottom: 33vh;
     font-weight: bold;
 }
 
@@ -263,8 +286,9 @@ h2 {
 #okay {
     font-size: 20px;
     border: 2px solid;
-    width: 40%;
+    width: 100%;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 20px;
 }
 
 #submitButton {
@@ -272,14 +296,10 @@ h2 {
     letter-spacing: 2px;
     font-weight: bold;
     border: 2px solid #D67D7D;
-}
-
-#submitBtn {
     border-radius: 20px;
     background-color: #D67D7D;
     width: 100%;
     margin-top: 20px;
-    
 }
 
 #facebook {
@@ -292,7 +312,7 @@ h2 {
 
 .socialMedia {
     height: 50px;
-    margin-top:15px;
+    margin-top:30px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -300,9 +320,30 @@ h2 {
 }
 
 #sectionHead {
-    font-size: 25px;
+    font-size: 20px;
+    margin-top: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.formLabel {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+}
+
+#form-text-field {
+    height: 27px;
+}
+
+.conForm {
+    margin-top: 10px;
+}
+
+#gmap_canvas {
+	height: 300px;
+    width: 100%;
+    margin-left: 25px;
+}
 
 
 /*Media Query*/

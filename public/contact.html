@@ -33,38 +33,45 @@
     <hr>
     <div id="container" class="container-fluid">
         <div class="row">
-           <div class="col-12 text-center">
+           <div id="contact-header"class="col-12 text-center">
                <span id="contactHeader">Interested in my work?</span>
            </div>
        </div>
        <div class="row mt-3">
             <div class="col-sm-12 col-md-5">
                 <div class="row">
-                    <div class="col-12">
-                        <h4>Submit now your inquery!</h4>
+                    <div class="col-12 text-center">
+                        <h4 id="submitInquiry">Submit now your inquery!</h4>
                     </div>
                 </div>
                 <div class="row">
                     <div id="contactForm" class="col-12">
                         <form>
-                            <div class="form-group">
-                              <label for="fullName">Full Name</label>
-                              <input type="text" class="form-control" id="fullName" placeholder="Enter your full name">
+                            <div class="form-group conForm">
+                              <label for="fullName" class="formLabel">Full Name</label>
+                              <input type="text" class="form-control" name="fullName" id="form-text-field" 
+                                    placeholder="Enter your full name">
+                            </div>
+                            <div class="form-group conForm">
+                              <label for="email" class="formLabel">Email</label>
+                              <input type="email" class="form-control" name="email" id="form-text-field" 
+                                    placeholder="Enter your email">
+                            </div>
+                            <div class="form-group conForm">
+                              <label for="subject" class="formLabel">Subject</label>
+                              <input type="text" class="form-control" name="subject" id="form-text-field" 
+                                    placeholder="Enter subject email">
+                            </div>
+                            <div class="form-group conForm">
+                              <label for="message" class="formLabel">Message</label>
+                              <textarea class="form-control" id="message" rows="4" id="form-text-field" 
+                                    placeholder="Enter message. . .">
+                            </textarea>
                             </div>
                             <div class="form-group">
-                              <label for="email">Email</label>
-                              <input type="email" class="form-control" id="email" placeholder="Enter your email">
-                            </div>
-                            <div class="form-group">
-                              <label for="subject">Subject</label>
-                              <input type="text" class="form-control" id="subject" placeholder="Enter subject email">
-                            </div>
-                            <div class="form-group">
-                              <label for="message">Message</label>
-                              <textarea class="form-control" id="message" rows="4" placeholder="Enter message"></textarea>
-                            </div>
-                            <div class="form-group">
-                                <button id="submitBtn"> <a href="./sentmessage.html" id="submitButton" target="_blank">Submit</a></button>
+                                <a href="./notifmessage.html" target="_blank">
+                                    <div id="submitButton" class="text-center">Submit</div>
+                                </a>
                             </div>
                           </form>
                     </div>
@@ -73,14 +80,38 @@
             <div class="col-sm-12 col-md-7">
                 <div class="row">
                     <div class="col-12 text-center align-middle">
-                        <section id="sectionHead">Follow me on my social media accounts.</section> 
-                        <div class="row">
-                            <div class="col-12">
-                                <span id="facebook" class="socialMedia"></span> 
-                                <span id="linkedIn" class="socialMedia"></span>
-                            </div>
-                        </div>   
+                        <section id="sectionHead">Follow me on my social media accounts.</section>   
                     </div>
+                </div>
+                <div class="row">
+                    <div class="col-4"></div>
+                    <div class="col-2 float-right align-middle">
+                        <a href="https://www.facebook.com/cwiselle/" target="_blank">
+                            <img class="socialMedia" src="./assets/images/facebook.png" alt="facebook">
+                        </a>
+                    </div>
+                    <div class="col-2 align-middle">
+                        <a href="https://www.linkedin.com/in/criselle-albor-96779416b/" target="_blank">
+                            <img class="socialMedia" src="./assets/images/linkedin.png" alt="linkedIn">
+                        </a>
+                    </div>
+                    <div class="col-4"></div>
+                </div>
+                <div class="row">
+                    <div class="col-1"></div>
+                    <div class="col-9">
+                        <div class="gmap_canvas">
+                            <iframe id="gmap_canvas" 		  
+                                    src="https://maps.google.com/maps?q=san%20mateo%20rizal&t=&z=15&ie=UTF8&iwloc=&output=embed"		  
+                                    frameborder="0" 	
+                                    scrolling="no" 
+                                    marginheight="0"
+                                    marginwidth="0">
+                            </iframe>
+                            <a href="https://yt2.org"></a>
+                        </div>
+                    </div>
+                    <div class="col-1"></div>
                 </div>
             </div>
        </div>
